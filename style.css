@@ -1,0 +1,152 @@
+
+body{
+    background:-webkit-linear-gradient(90deg,#a67eeb,#6b62e9,#4437f7);
+}
+
+*{
+    font-family: 'Bruno Ace', cursive;
+    font-weight: 380;
+    font-size: 26px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 15px;
+    margin-left: 15px;
+    width:10%;
+}
+
+.titulo {
+    font-size:50px;
+    font-weight: bold;
+    color:#8d589a;
+    text-shadow: 5px 5px 5px #430969;
+    display:inline;
+    text-align: center;
+    margin-left: 410px;
+    width: bold;
+}
+
+main{
+    display:flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.text-area{
+    background:rgba(74, 3, 141,0);
+    text-align: center;
+    border:none;
+    border-radius: 15px;
+    color:rgb(74, 3, 141,);
+    margin-top: 90px;
+    resize: none;
+}
+
+::placeholder {
+    color:rgb(74, 3, 141);
+}
+
+.text-area:focus{
+    outline:none;
+}
+
+.mensaje{
+    background-image: url("imagenes/gemas.jpg"); /*background-repeat: no-repeat; para que la imagen no se repita*/
+    background-position: center;
+    border:none;
+    border-radius: 30px;
+    color:rgb(74, 3, 141);
+    margin-left: 325px;
+    margin-top: 80px;
+    padding-left: 25px;
+    resize: none;
+    opacity: 0.3;
+    position: fixed;
+    
+}
+.mensaje:focus{
+    outline:none;
+}
+.botones{
+    display:flex;
+    margin-top:18px;
+}
+
+.btn-desencriptar{
+    background-color:#d88adf;
+    border:1px solid #d88adf;
+    border-radius: 30px;
+    color:rgb(74, 3, 141);
+    cursor:pointer;
+    height:50px;
+    width:300px;
+}
+
+.btn-desencriptar:hover{
+    font-size:32px ;
+}
+
+.btn-desencriptar:active{
+    background: yellow;
+    color:#e9700d;
+}
+
+.btn-encriptar{
+    background-color: rgb(74, 3, 141);
+    border:1px solid rgb(74, 3, 141);
+    border-radius: 30px;
+    color:#d88adf;
+    cursor:pointer;
+    height:50px;
+    width:300px;
+}
+
+.btn-encriptar:hover{
+    font-size:32px ;
+}
+
+.btn-encriptar:active{
+    background: #ec9f5f;
+    color:yellow;
+    border-color: #d88adf;
+}
+
+.btn-copiar{
+    background:rgb(74, 3, 141);
+    border:1px solid rgb(74, 3, 141);
+    border-radius: 30px;
+    color:#cb04dd;
+    cursor:pointer;
+    height:50px;
+    margin-left: 325px;
+    margin-top: 504px;
+    position:absolute;
+    width: 365px;
+}
+
+.btn-copiar:hover{
+    font-size:35px ;
+}
+.btn-copiar:active{
+    color:rgb(179, 255, 0);
+    border-color:rgb(179, 255, 0)
+}
+
+.informacion{
+    color:rgb(74, 3, 141);
+    font-size: 14px;
+}
+footer{
+    text-align: center;
+    padding:5px;
+}
+
+.copyright{
+    
+    color:#65139b;
+    font-size: 10px;
+    margin-left: 300px;
+    margin:10px;
+}
